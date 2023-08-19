@@ -9,15 +9,15 @@ import { sendCartData, getCartData } from './store/cart-slice';
 let isInitialRunning = true;
 
 function App() {
-  const isCartVisible = useSelector((state) => state.main.isCartVisible);
-  const cart = useSelector((state) => state.cart);
-  const statusMessage = useSelector((state) => state.main.statusMessage);
+  const isCartVisible = useSelector(state => state.main.isCartVisible);
+  const cart = useSelector(state => state.cart);
+  const statusMessage = useSelector(state => state.main.statusMessage);
 
   const dispatchAction = useDispatch();
 
   useEffect(() => {
     dispatchAction(getCartData());
-  }, []);
+  }, [dispatchAction]);
 
   useEffect(() => {
     if (isInitialRunning) {
@@ -28,7 +28,7 @@ function App() {
     if (cart.isCartContentChanged) {
       dispatchAction(sendCartData(cart));
     }
-  }, [cart]);
+  }, [cart, dispatchAction]);
 
   return (
     <Fragment>
