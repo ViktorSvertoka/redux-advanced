@@ -1,16 +1,13 @@
 {
   "files": {
-    "main.css": "/redux-advanced/static/css/main.073c9b0a.css",
-    "main.js": "/redux-advanced/static/js/main.a37f4236.js",
-    "static/js/787.8844cc26.chunk.js": "/redux-advanced/static/js/787.8844cc26.chunk.js",
-    "static/media/logo.svg": "/redux-advanced/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
+    "main.css": "/redux-advanced/static/css/main.3a015298.css",
+    "main.js": "/redux-advanced/static/js/main.a36acb8b.js",
     "index.html": "/redux-advanced/index.html",
-    "main.073c9b0a.css.map": "/redux-advanced/static/css/main.073c9b0a.css.map",
-    "main.a37f4236.js.map": "/redux-advanced/static/js/main.a37f4236.js.map",
-    "787.8844cc26.chunk.js.map": "/redux-advanced/static/js/787.8844cc26.chunk.js.map"
+    "main.3a015298.css.map": "/redux-advanced/static/css/main.3a015298.css.map",
+    "main.a36acb8b.js.map": "/redux-advanced/static/js/main.a36acb8b.js.map"
   },
   "entrypoints": [
-    "static/css/main.073c9b0a.css",
-    "static/js/main.a37f4236.js"
+    "static/css/main.3a015298.css",
+    "static/js/main.a36acb8b.js"
   ]
 }
